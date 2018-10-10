@@ -1,4 +1,4 @@
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/APJ.KALAM.jpeg)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/APJ.KALAM.jpeg)
 
 
 
@@ -18,7 +18,7 @@
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/Screenshot from 2018-10-10 02-40-37.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/Screenshot%20from%202018-10-10%2002-40-37.png)
 
 
 
@@ -32,7 +32,7 @@
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step1.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step1.png)
 
 X - Input pixel(4x3)
 
@@ -48,7 +48,7 @@ Y - Actual Output
 
 #### **STEP**2  - Initalizing Weights and Biases
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step2.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step2.png)
 
 
 
@@ -68,7 +68,7 @@ Hidden_layer_Input = matrix(X * wh) + bh
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step3.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step3.png)
 
 
 
@@ -80,7 +80,7 @@ Hidden_layer_activation = sigmoid(Hidden_layer_input)
 
 Sigmoid = 1/(1 + exp(-x))
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step4.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step4.png)
 
 
 
@@ -94,7 +94,7 @@ Output_layer_input= Hidden_layer_activation * wout + bout
 
 Output = Sigmoid(Output_layer_input)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step5.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step5.png)
 
 
 
@@ -112,7 +112,7 @@ Error = Y - Output
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step6.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step6.png)
 
 
 
@@ -124,15 +124,15 @@ Error = Y - Output
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7.png)
 
 Slope_output_layer = derivatives_sigmoid(output) = sigmoid(output)*1-sigmoid(output)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7a.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7a.png)
 
 Slope_hidden_layer = Derivatives_sigmoid(Hidden_layer_activation)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7b.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7b.png)
 
 
 
@@ -144,11 +144,11 @@ delta_output = E * Slope_output_layer * lr
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step6.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step6.png)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7a.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7a.png)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step8.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step8.png)
 
 
 
@@ -158,11 +158,11 @@ delta_output = E * Slope_output_layer * lr
 
 Error_at_hidden_layer = matrix_dot_product(d_output, wout.Transpose)
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7.png)
 
 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step9.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step9.png)
 
 
 
@@ -170,19 +170,19 @@ Error_at_hidden_layer = matrix_dot_product(d_output, wout.Transpose)
 
 #### **STEP**10  -  Compute delta at hidden  layer
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7.png)
 
 
 
 Slope_hidden_layer
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step7b.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step7b.png)
 
 
 
 Delta_hiddenlayer = Error_at_hidden_layer \* slope_hidden_layer
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step10.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step10.png)
 
 
 
@@ -196,7 +196,7 @@ wout = wout + matrix_dot_product(hiddenlayer_activations.Transpose, d_output)*le
 
 learning_rate = 0.1
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step11.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step11.png)
 
 
 
@@ -204,19 +204,19 @@ learning_rate = 0.1
 
 Hidden_layer_activation transpose
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step11c.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step11c.png)
 
 Delta_output
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step8.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step8.png)
 
 wh =  wh+ matrix_dot_product(X.Transpose,d_hiddenlayer)*learning_rate
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step12.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step12.png)
 
 Delta_hidden_layer 
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step10.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step10.png)
 
 
 
@@ -232,13 +232,13 @@ Delta_hidden_layer
 
 bh = bh + sum(d_hiddenlayer, axis=0) \* learning_rate
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step12.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/STEP12.png)
 
 
 
 *bout = bout + sum(d_output, axis=0)\*learning_rate*
 
-![](/home/ab/Desktop/GitHub/EIP-2/assignment2/image/step12a.png)
+![](https://raw.githubusercontent.com/Nitishsjce/EIP-2/7d9146659312373e02af05e4b62e14ef5d3032e0/assignment2/image/step12a.png)
 
 
 
